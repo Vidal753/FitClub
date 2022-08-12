@@ -1,13 +1,12 @@
 import React from 'react';
 import './Header.css';
-import logo from '../../assets/logo.png'
+import logo from '../../assets/logo.png';
 
-const Header = () => {
+function Header() {
   return (
     <div className="header">
-      <img src={logo} alt='' className='logo' />
-
-      <ul className='header-menu'>
+      <img src={logo} alt="" className="logo" />
+      <ul className="header-menu">
         <li>Home</li>
         <li>Programs</li>
         <li>Why use</li>
@@ -15,7 +14,7 @@ const Header = () => {
         <li>Testimonials</li>
       </ul>
     </div>
-  )
+  );
 }
 
 export default Header;
