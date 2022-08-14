@@ -18,5 +18,12 @@
         "react"
     ],
     "rules": {
+        "no-console": "warn", 
+        "no-use-before-define": "warn", 
+        "spaced-comment": "warn",
+        "react/button-has-type": "off",
+        "camelcase": "off",
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
+
     }
 }
